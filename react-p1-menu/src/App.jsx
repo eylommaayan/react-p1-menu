@@ -10,11 +10,22 @@ function Pizza() {
   );
 }
 
+function Header() {
+ return <h1>תפריט פיצה מהיר</h1>
+}
+
+function Menu() {
+
+}
+
+function Footer(){
+
+}
+
 function App() {
   return (
     <>
-      <h1>Hello React</h1>
-      <h1>Hello React</h1>
+     <Header/>
       <Pizza />
       <Pizza />
       <Pizza />
